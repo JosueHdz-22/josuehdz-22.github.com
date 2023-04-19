@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    background: #55B7C2;
+    color: white;
+    padding: 15px 25px 15px 25px;
+}
+
+.titular {
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1 {
+  text-decoration: underline;
+    font-size: 60px;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+header {
+    background-image: url('../imagenes/fondo.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+#name_item{
+  font-size: 26;
+  color: black;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+/* ARRANCA SECCION SOBRE MI */
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-sobremi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-sobremi-parrafo {
+  width: 70%;
+}
+
+.contenedor-sobremi-parrafo p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.parrafo-final {
+  margin-bottom: 40px;
+}
+
+.marry {
+  max-width: 100%;
+}
+
+.max {
+  width: 10%;
+}
+
+.contenedor-servicio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicio {
+  width: 25%;
+  padding: 50px 38px 50px 38px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.violeta {
+  background: #F5D978;
+  color: #1B1E1C;
+}
+
+.celeste {
+  background: #84CBF4;
+  color: #FFFFFF;
+}
+
+.servicio h4 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.servicio img {
+  float: right;
+}
+
+.servicio p {
+  font-size: 18px;
+  height: 200px;
+}
+
+span{
+  font-size: 70px;
+  color: #55B7C2;
+}
+
+.owl-nav{
+  text-align: center;
+}
+
+.contenedor-porque{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.contenedor-porque h4{
+  margin: 0px;
+  font-size: 20px;
+}
+
+.contenedor-porque p{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.porque-singular{
+  width: 28%;
+  
+}
