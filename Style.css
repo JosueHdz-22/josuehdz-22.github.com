@@ -1,0 +1,24 @@
+h1{
+    color: yellow;
+    font-size: 100px;
+    font-family: pokemon;
+    }
+
+@font-face {
+        font-family: pokemon;
+        src: url(Pokemon_solid.ttf);
+    }
+    
+
+
+body{
+    background-color: cornflowerblue;
+}
+
+.box{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    margin: 5px;
+    float: left;
+}
